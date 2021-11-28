@@ -1,4 +1,4 @@
-package Practises;
+package Practices;
 
 public class Soru09 {
 

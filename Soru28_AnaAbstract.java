@@ -1,4 +1,4 @@
-package Practises;
+package Practices;
 
 public abstract class Soru28_AnaAbstract {
 

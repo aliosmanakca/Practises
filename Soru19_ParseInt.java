@@ -1,4 +1,4 @@
-package Practises;
+package Practices;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,10 +7,10 @@ import java.util.List;
 public class Soru19_ParseInt { 
 
 	public static void main(String[] args) {
-		/*   $ ve  £  isareti olanlarin toplamlarini ayri ayri bulun
-        String str = "$1 $23 $134 $2 $7 $24 £32 £40 £2 £65 £4 ";
+		/*   $ ve  ï¿½  isareti olanlarin toplamlarini ayri ayri bulun
+        String str = "$1 $23 $134 $2 $7 $24 ï¿½32 ï¿½40 ï¿½2 ï¿½65 ï¿½4 ";
         */
-		String str = "$1 $23 $134 $2 $7 $24 €32 €40 €2 €65 €4";
+		String str = "$1 $23 $134 $2 $7 $24 ï¿½32 ï¿½40 ï¿½2 ï¿½65 ï¿½4";
 		String arr[] = str.split(" "); 
 		System.out.println(Arrays.toString(arr));
 		
@@ -23,7 +23,7 @@ public class Soru19_ParseInt {
 				dolar.add(arr[i].replace("$", ""));  
 				
 			} else {
-				euro.add(arr[i].replace("€", ""));
+				euro.add(arr[i].replace("ï¿½", ""));
 			} 
 			
 		}

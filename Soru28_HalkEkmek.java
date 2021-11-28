@@ -1,4 +1,4 @@
-package Practises;
+package Practices;
 
 public class Soru28_HalkEkmek extends Soru28_AnaAbstract {
 

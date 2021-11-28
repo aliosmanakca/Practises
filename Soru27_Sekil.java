@@ -1,4 +1,4 @@
-package Practises;
+package Practices;
 /*
  *Şekil diye bir class oluşturalım
 cevre ve alan abstract methodları olsun

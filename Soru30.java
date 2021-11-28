@@ -1,4 +1,4 @@
-package Practises;
+package Practices;
 
 import java.util.HashMap;
 import java.util.Map.Entry;

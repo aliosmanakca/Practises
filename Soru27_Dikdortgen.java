@@ -1,4 +1,4 @@
-package Practises;
+package Practices;
 
 public class Soru27_Dikdortgen extends Soru27_Sekil {
 
